@@ -1,0 +1,5 @@
+service vendor.oplus.biometrics.fingerprint@2.1 /odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
+    class hal
+    user system
+    group system input
+    task_profiles ServiceCapacityLow  # <-- Required in A16 for background HALs
